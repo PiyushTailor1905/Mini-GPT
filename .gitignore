@@ -7,7 +7,8 @@ __pycache__/
 
 # Machine Learning / PyTorch Checkpoints
 # (Model weights can be gigabytes in size, never commit them)
-checkpoints/
+checkpoints/*.pt
+checkpoints/*.pth
 *.pt
 *.pth
 *.ckpt
