@@ -1,0 +1,23 @@
+# Python Environments & Cache
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Machine Learning / PyTorch Checkpoints
+# (Model weights can be gigabytes in size, never commit them)
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Datasets
+# (Users should download the data themselves via your script)
+data/*.txt
+data/*.csv
+
+# Operating System & Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
